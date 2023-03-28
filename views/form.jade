@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    div.fontCont
+        h1 Form
+        form(method="POST" action="/new")
+            input(type="text" name="inputName" placeholder="User Name").inputName
+            input(type="text" name="inputMessage" placeholder="Write a comment").inputMessage
+            button(type="submit").submitButton
